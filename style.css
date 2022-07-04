@@ -1,0 +1,164 @@
+/* <!--# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+--> */
+
+:root {
+    --btn-bg-color: hsl(158, 36%, 37%);
+    --container-bg-color: hsl(30, 38%, 92%);
+    --neutral-basis-color: hsl(0, 0%, 100%);
+    --neutral-text-color: hsl(228, 12%, 48%);
+    --neutral-title-color: hsl(212, 21%, 14%);
+    --fs: 0.875rem;
+    --ff-montserrat: 'Fraunces', serif;
+    --ff-fraunces: 'Fraunces', serif;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+*{
+  margin: 0;
+}
+
+
+
+/* Set core body defaults */
+body {
+    margin: 0 auto;
+  min-height: 100vh;
+  line-height: 1.65;
+    max-width: 599px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  background-color: var(--container-bg-color);
+    font-size: var(--fs);
+    font-weight: 500;
+    font-family: var(--ff-montserrat);
+}
+
+h1 {
+    font-weight: 700;
+    font-family: var(--ff-fraunces); 
+    line-height: 2rem;
+}
+
+span:first-of-type {
+    font-weight: 700;
+}
+
+span:last-of-type {
+    text-decoration: line-through;
+    font-family: var(--ff-fraunces);
+}
+
+body > div:first-of-type {
+    margin: inherit;
+    width: 90%;
+    min-height: 450px;
+    border-radius: 0.75rem;
+    background-color: var(--neutral-basis-color); 
+}
+
+main {
+   padding: 1.3rem;
+}
+
+main > div:last-of-type {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+img {  
+  display: block;
+  max-height: 40vh;
+  width: 100%;
+  object-fit: fill;                                          /* https://moderncss.dev/css-only-full-width-responsive-images-2-ways/ */
+  
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.button {
+    content: '';
+    background-color: blue;
+    width: 100px;
+    height: 1rem;
+    margin: 0 auto 1rem auto;
+    display: block;
+    background: url(product-preview-card-component-main/images/icon-cart.svg);
+    background-repeat: space;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media( min-width: 600px) {
+    
+    body > div:first-of-type {
+        display: flex;
+    }
+    
+ 
+    
+    main {
+        width: 50%;   
+    }
+    
+    header {
+        width: 50%;
+    }
+    
+    
+    img {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0.75rem;
+        max-height: 100vh;
+    }
+}
