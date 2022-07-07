@@ -95,7 +95,7 @@ span:first-of-type {
     color: var(--btn-bg-color); 
 }
 
-span:last-of-type {
+.price span:last-of-type {
     text-decoration: line-through;
 }
 
@@ -116,7 +116,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+    gap: 15px;  
 }
 
 main > div {
@@ -154,6 +154,10 @@ img {
     font-size: 0.8125rem;
     color: var(--neutral-basis-color);
     text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 .attribution {
