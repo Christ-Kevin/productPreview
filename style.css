@@ -88,8 +88,16 @@ h1 {
 
 span {
     display: inline-flex;      
-  align-items: center;           /* center span vertically after inline-flex */
+    align-items: center;           /* center span vertically after inline-flex */
 }
+
+
+.button span::before {
+    content: url(images/icon-cart.svg);                   /* https://css-tricks.com/almanac/selectors/a/after-and-before/ */
+    margin-right: 0.9375rem;                                    /* https://developer.mozilla.org/de/docs/Web/CSS/::before */
+    padding-bottom: 0.375rem;
+}
+
 
 span:first-of-type {
     color: var(--btn-bg-color); 
@@ -116,7 +124,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 15px;  
+    gap: 0.9375rem;  
 }
 
 main > div {
@@ -146,8 +154,8 @@ img {
 .button {
    background-color: var(--btn-bg-color);
     border-radius: 0.375rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
 }
 
 .button * {
