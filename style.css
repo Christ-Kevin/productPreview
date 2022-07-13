@@ -156,6 +156,10 @@ img {
         width: 50%;
     }
 
+    picture {
+        display: block;
+    }
+
     header {
         width: 50%;
     }
