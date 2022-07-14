@@ -5,6 +5,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ## Table of contents
 
 - [About the Project](#about-the-project)
+- [Screenshot](#screenshot)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 - [Useful resources](#useful-resources)
@@ -22,6 +23,8 @@ You can use any tools you like to help you complete the challenge. So if you've 
 2. See hover and focus states for interactive elements.
 <br>
 
+## Screenshot![](./productPreview.jpg)
+
 ## Built with
 
 - Semantic HTML5 markup
@@ -31,7 +34,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ## What I learned
 
-A very easy project to keep updated with the Frontend Mentor projects and remember the basics!
+A very easy project to keep updated with the Frontend Mentor projects and remember the basics! I've written all stuff that I learned in the comments of my css
 
 ## Useful resources
 
@@ -41,4 +44,4 @@ A very easy project to keep updated with the Frontend Mentor projects and rememb
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on my <a href="[https://www.frontendmentor.io/solutions/product-preview-card-component-2dVqjwidC2](https://www.frontendmentor.io/solutions/product-preview-using-html-css-flexbox-and-advanced-selectors-J4-eESxVUm)">solution</a>. It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on my <a href="[https://www.frontendmentor.io/solutions/product-preview-card-component-2dVqjwidC2](https://www.frontendmentor.io/solutions/product-preview-using-html-css-flexbox-and-advanced-selectors-J4-eESxVUm)">solution</a>. It definitely helps to find new ways to code and find easier solutions! A big than you to <a href="https://www.frontendmentor.io/profile/AlexKMarshall">Alex</a> who commented my solution. He is a great mentor
