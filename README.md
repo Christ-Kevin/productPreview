@@ -44,4 +44,4 @@ A very easy project to keep updated with the Frontend Mentor projects and rememb
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on my <a href="[https://www.frontendmentor.io/solutions/product-preview-card-component-2dVqjwidC2](https://www.frontendmentor.io/solutions/product-preview-using-html-css-flexbox-and-advanced-selectors-J4-eESxVUm)">solution</a>. It definitely helps to find new ways to code and find easier solutions! A big than you to < a href="https://www.frontendmentor.io/profile/AlexKMarshall">Alex</a> who commented my solution. He is a great mentor
+A big thank you to anyone providing feedback on my <a href="[https://www.frontendmentor.io/solutions/product-preview-card-component-2dVqjwidC2](https://www.frontendmentor.io/solutions/product-preview-using-html-css-flexbox-and-advanced-selectors-J4-eESxVUm)">solution</a>. It definitely helps to find new ways to code and find easier solutions! A big than you to <a href="https://www.frontendmentor.io/profile/AlexKMarshall">Alex</a> who commented my solution. He is a great mentor
