@@ -57,17 +57,24 @@ span {
 }
 
 
-.button span::before {
+.button::before {
     content: url(images/icon-cart.svg);
     /* https://css-tricks.com/almanac/selectors/a/after-and-before/ */
     margin-right: 0.9375rem;
     /* https://developer.mozilla.org/de/docs/Web/CSS/::before */
-    padding-bottom: 0.375rem;
 }
 
 
 span:first-of-type {
     color: var(--btn-bg-color);
+}
+
+.price {
+    display: flex;
+    gap: 1.5rem;
+    /* space between both prices */
+    flex-wrap: wrap;
+    /* to wrap onto a new line if not enough space */
 }
 
 .price span:last-of-type {
@@ -79,7 +86,7 @@ p {
     color: var(--neutral-text-color);
 }
 
-body > div:first-of-type {
+main {
     margin: inherit;
     width: 90%;
     min-height: 450px;
@@ -87,7 +94,7 @@ body > div:first-of-type {
     background-color: var(--neutral-basis-color);
 }
 
-main {
+article {
     padding: 1.3rem;
     display: flex;
     flex-direction: column;
@@ -95,15 +102,18 @@ main {
     gap: 0.9375rem;
 }
 
-main > div {
+article p:first-child {
+    letter-spacing: 0.3125rem;
+    text-transform: uppercase;
+    /* A screen-reader will read that as individual letters, not a word */
+}
+
+article > div {
     display: flex;
 }
 
-main > div:last-of-type {
-    justify-content: center;
-}
 
-main > div:first-of-type {
+article > div:first-of-type {
     align-items: center;
 }
 
@@ -112,7 +122,7 @@ img {
     /* max-inline-size: 100%; */
     max-height: 40vh;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
     /* https://moderncss.dev/css-only-full-width-responsive-images-2-ways/ */
 
     border-top-left-radius: 0.75rem;
@@ -120,14 +130,17 @@ img {
 }
 
 .button {
+    display: inline-flex;
+    /* center items horizontally and vertically */
+    align-items: center;
+    justify-content: center;
+    border: none;
     background-color: var(--btn-bg-color);
     border-radius: 0.375rem;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-}
-
-.button * {
-    font-size: 0.8125rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 0.875rem;
+    font-weight: 700;
     color: var(--neutral-basis-color);
     text-decoration: none;
 }
@@ -148,11 +161,11 @@ img {
 
 @media(min-width: 37.5em) {
 
-    body > div:first-of-type {
+    main {
         display: flex;
     }
 
-    main {
+    article {
         width: 50%;
     }
 
