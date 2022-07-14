@@ -142,7 +142,6 @@ img {
     font-size: 0.875rem;
     font-weight: 700;
     color: var(--neutral-basis-color);
-    text-decoration: none;
 }
 
 .button:hover {
