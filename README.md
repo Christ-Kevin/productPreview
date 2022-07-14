@@ -5,6 +5,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ## Table of contents
 
 - [About the Project](#about-the-project)
+- [Screenshot](#screenshot)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 - [Useful resources](#useful-resources)
@@ -21,6 +22,8 @@ You can use any tools you like to help you complete the challenge. So if you've 
 1. View the optimal layout depending on their device's screen size.
 2. See hover and focus states for interactive elements.
 <br>
+
+## Screenshot![](./productPreview.jpg)
 
 ## Built with
 
