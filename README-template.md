@@ -4,9 +4,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Table of contents
 
-- [Overview](#overview)
-- [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
 - [About the Project](#about-the-project)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
